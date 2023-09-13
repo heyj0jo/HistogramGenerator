@@ -1,0 +1,109 @@
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    margin: 30px 0;
+}
+
+header {
+    background-color: rgb(67, 85, 145);
+    padding: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#legend {
+    background-color: lightgrey;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#legend table {
+    margin: 0 0 20px 0;
+    border-collapse: collapse;
+    max-width: 100%;
+}
+
+#legend th {
+    background-color: darkgray;
+    padding: 10px;
+}
+
+#legend input {
+    width: 50px;
+}
+
+#details {
+    display: flex;
+}
+
+#details>section {
+    width: 50%;
+    height: auto;
+}
+
+#stats, #histogram h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+#stats table {
+    width: 75%;
+    border-collapse: collapse;
+    margin: 0 0 50px 0;
+}
+
+#stats th, #stat td {
+    padding: 15px 30px;
+    text-align: center;
+}
+
+#stats tr:nth-child(odd){
+    background-color: darkgray;
+}
+
+#histogram {
+    background-color: lightgrey;
+}
+
+#graph {
+    border-top: 2px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+#histogram div {
+    background-color: rgb(67, 85, 145);
+    height: 0;
+    width: 30px;
+    margin: 0 7px;
+    color: white;
+}
+
+#histogram table {
+    border-collapse: collapse;
+}
+
+#xVal {
+    position: relative;
+    left: 20px;
+}
+
+#xVal th {
+    padding: 0 14.5px;
+    text-align: left;
+}
+
+#yVal td {
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    padding: 29.5px 2px 0;
+    text-align: right;
+}
